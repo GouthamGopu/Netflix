@@ -1,0 +1,192 @@
+@media screen and (max-width:1300px) and (min-width:980px) {
+
+  .first-image video {
+    width: 480px;
+    top: 100px;
+    left: 220px;
+  }
+
+  .third-image video {
+    width: 280px;
+    top: 60px;
+    right: 300px;
+  }
+}
+@media screen and (max-width:980px) and (min-width:800px) {
+  input {
+    max-width: 50%;
+  }
+
+  .first-image video {
+    top: 100px;
+    left: 100px;
+  }
+
+  .third-image video {
+    top: 30px;
+    right: 150px;
+  }
+
+}
+@media screen and (max-width:800px) and (min-width:500px) {
+  input {
+    max-width: 50%;
+  }
+
+  .first-image video {
+    width: 300px;
+    top: 70px;
+    left: 80px;
+  }
+
+  .third-image video {
+    width: 220px;
+    top: -20px;
+    right: 120px;
+  }
+  .main nav .right .language-selector {
+    display: none;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  .first-image video {
+    width: 200px;
+    top: 50px;
+    left: 50px;
+  }
+
+  .third-image video {
+    width: 150px;
+    top: -50px;
+    right: 60px;
+  }
+
+  .main nav span img {
+    width: 100px;
+  }
+
+  .main nav .right .language-selector {
+    display: none;
+  }  
+}
+
+@media screen and (max-width:350px) {
+
+
+  .first-image video {
+    width: 150px;
+  }
+
+  .third-image video {
+    width: 100px;
+  }
+
+  .main nav span img {
+    width: 100px;
+  }
+
+  .main nav .right .language-selector {
+    display: none;
+  }  
+}
+
+@media screen and (max-width:1300px) {
+
+  input {
+    max-width: 50%;
+  }
+
+  .main .main-content h1,
+  .first .first-text h1,
+  .second .second-text h1,
+  .third .third-text h1,
+  .fourth .fourth-text h1,
+  .faq .faq-text h1 {
+    font-size: 32px;
+  }
+
+  .main .main-content h3,
+  .faq .faq-text1 div h3 {
+    font-size: 16px;
+  }
+
+  .main .main-content p,
+  .first .first-text p,
+  .second .second-text p,
+  .third .third-text p,
+  .fourth .fourth-text p,
+  .faq .faq-boxes .faq-box {
+    font-size: 20px;
+  }
+
+  .first .first-text,
+  .second .second-text,
+  .third .third-text,
+  .fourth .fourth-text,
+  .faq .faq-text {
+    width: 90%;
+  }
+
+  .first-image,
+  .third-image,
+  .second-image,
+  .fourth-image {
+    width: 100%;
+    z-index: 100;
+  }
+
+  .first-image img,
+  .third-image img,
+  .second-image img,
+  .fourth-image img {
+    width: 100%;
+    object-fit: contain;
+    z-index: 1000;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3.5rem 0;
+    margin: 0;
+    display: flex;
+    margin: auto;
+  }
+
+  .main .main-content div,
+  .faq .faq-text1 div {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  .main .main-content h1,
+  .first .first-text h1,
+  .second .second-text h1,
+  .third .third-text h1,
+  .fourth .fourth-text h1,
+  .faq .faq-text h1 {
+    font-size: 28px;
+  }
+
+  .main .main-content h3,
+  .faq .faq-text1 div h3 {
+    font-size: 14px;
+  }
+
+  .main .main-content p,
+  .first .first-text p,
+  .second .second-text p,
+  .third .third-text p,
+  .fourth .fourth-text p,
+  .faq .faq-boxes .faq-box {
+    font-size: 16px;
+  }
+}

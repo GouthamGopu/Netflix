@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  color: white;
+  
+}
+
+body {
+  background-color: black;
+  position: relative;
+  z-index: 10;
+}
+
+.main {
+  height: 70vh;
+  width: 100%;
+  background-image: url(assets/images/Background.jpg);
+  background-position:top center;
+  background-repeat: repeat;
+  background-size: max(1000px, 100vw);
+  position: relative;
+}
+
+.main .box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background: rgb(0 0 0 / 40%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.main nav {
+  max-width: 76vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  position: relative;
+  z-index: 10;
+}
+
+.btn {
+  padding: 8px 18px;
+  background-color: rgb(229, 9, 20);
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main nav .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#language-selector {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background: transparent;
+  border: none;
+  border-radius: 3px;
+}
+
+.main nav .right .language-selector {
+  margin-right: 20px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px 2px 4px;
+  background: rgba(22, 22, 22, 0.7);
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.main nav .right .language-selector img {
+  height: 20px;
+  margin: 4px;
+}
+
+.main .main-content {
+  height: calc(100% - 10vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: auto;
+  position: relative;
+  z-index: 10;
+  color: white;
+  padding: 0 30px;
+}
+
+.main .main-content div,
+.faq .faq-text1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.main .main-content input,
+.faq .faq-text1 input {
+  width: 336px;
+  display: inline;
+  background-color: rgba(22, 22, 22, 0.5);
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  padding: 14px 16px;
+  border-radius: 4px;
+}
+
+.main .main-content button,
+.faq .faq-text1 button {
+  font-size: 24px;
+  font-weight: 700;
+  display: inline;
+  height: 54px;
+  width: 208px;
+}
+
+.main .main-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.main .main-content p {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main .main-content h3,
+.faq .faq-text1 div h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding: 0px 24px;
+}
+
+.seperation {
+  height: 8px;
+  background-color: rgba(71, 71, 71, 0.4);
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  max-width: 76vw;
+  padding: 72px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.first .first-text h1,
+.second .second-text h1,
+.third .third-text h1,
+.fourth .fourth-text h1,
+.faq .faq-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 12px 0;
+}
+
+.first .first-text p,
+.second .second-text p,
+.third .third-text p,
+.fourth .fourth-text p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.first-image,
+.third-image {
+  position:relative;
+  z-index: 100;
+}
+
+.first-image img,
+.third-image img {
+  position: relative;
+  z-index: 10;
+}
+
+.first-image video {
+  width: 450px;
+  position: absolute;
+  top: 80px;
+  right: 90px;
+}
+
+.third-image video {
+  height: 250px;
+  width: 350px;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.faq {
+  max-width: 76vw;
+  padding: 72px 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.faq .faq-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.faq .faq-boxes .faq-box {
+  width: 76vw;
+  padding: 20px 16px;
+  border: none;
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.faq .faq-boxes .faq-box:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.faq .faq-text1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+}
